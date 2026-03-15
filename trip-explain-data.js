@@ -15,7 +15,7 @@
 
   window.tripExplainData = {
     routeSourceMatchers: [
-      { routeId: "karwendel", patterns: ["bettelwurf", "karwendel", "pfeis", "nordkette", "absam", "halltal"] },
+      { routeId: "karwendel", patterns: ["bettelwurf", "karwendel", "pfeis", "nordkette", "absam", "halltal", "speckkar"] },
       { routeId: "stubai", patterns: ["stubai", "habicht", "innsbrucker-huette", "innsbrucker h\u00fctte", "innsbrucker huette", "bremer-huette", "bremer h\u00fctte", "bremer huette", "neder", "gschnitz"] },
       { routeId: "dolomites", patterns: ["vallandro", "biella", "duerrenstein", "d\u00fcrrenstein", "plaetzwiese", "prato piazza", "prags", "braies", "villabassa", "niederdorf", "suedtirolmobil", "443_"] },
       { routeId: "rofan", patterns: ["rofan", "achensee", "erfurter", "bayreuther", "dalfaz", "maurach", "hochiss"] },
@@ -31,7 +31,7 @@
           "Inference from the official route and hut pages checked for this page: no route permit or mandatory trail registration was found for the intended dry-summer line.",
           "Austria short-stay basis used here: valid Dutch passport or Dutch ID card.",
           "EHIC can be requested free from your Dutch health insurer and helps for medically necessary state care.",
-          "Dutch travel advice for Austria says mountain sports can involve extra insurance conditions or premiums. This route has the strongest insurance case of the Austrian options because the intended line includes a via ferrata set and helmet section.",
+          "Dutch travel advice for Austria says mountain sports can involve extra insurance conditions or premiums. This route is still exposed mountain hiking, especially on the Speckkarspitze day and the Goetheweg exit, so rescue / repatriation cover is the cleaner assumption even though no via ferrata set is part of the intended line.",
           "Book Nights 1 and 2 at Bettelwurfh\u00fctte and Night 3 at Pfeish\u00fctte through the official hut pages before travel.",
           "Separate permit / registration cost used on this page: EUR0. No separate hut-booking fee was found on the checked pages; the normal hut stay itself is covered in the cost section."
         ],
@@ -41,7 +41,7 @@
           "Dutch government EHIC page",
           "Bettelwurfh\u00fctte official site",
           "Pfeish\u00fctte official site",
-          "Karwendel H\u00f6henweg packing list"
+          "Karwendel H\u00f6henweg stage 5"
         ]
       },
       stubai: {
@@ -152,13 +152,13 @@
       karwendel: {
         sourceHints: {
           transport: ["Transavia official booking site", "Innsbruck Airport to Absam timing", "Nordkette tariffs"],
-          technical: ["Gro\u00dfer Bettelwurf route page", "Karwendel H\u00f6henweg stage 5", "Karwendel H\u00f6henweg packing list"],
-          planning: ["Gro\u00dfer Bettelwurf route page", "Karwendel H\u00f6henweg stage 5", "Karwendel H\u00f6henweg packing list"],
+          technical: ["Bettelwurfh\u00fctte official site", "Pfeish\u00fctte official site", "Karwendel H\u00f6henweg stage 5"],
+          planning: ["Bettelwurfh\u00fctte official site", "Pfeish\u00fctte official site", "Karwendel H\u00f6henweg stage 5"],
           cost: ["Transavia official booking site", "Bettelwurfh\u00fctte prices", "Pfeish\u00fctte meal prices", "Nordkette tariffs"]
         },
         decisionExplain: {
-          technical: "Higher because the route reaches exposed T3 to easy T4 ground on Gro\u00dfer Bettelwurf and the intended dry-summer version on this page explicitly calls for via ferrata kit and a helmet. Within these six routes it sits closer to Stubai, R\u00e4tikon, and Bernese Oberland than to Dolomites or Rofan.",
-          weather: "High because both the summit day and the Goetheweg exit are materially less forgiving in wind, wet rock, or lingering snow. The route's own planning note already treats poor conditions as a reason to reject the summit or exit day.",
+          technical: "Medium because the Bettelwurfh\u00fctte-based Speckkarspitze line stays within normal dry-summer mountain hiking rather than a via ferrata setup, but it still includes steeper rocky summit terrain and the exposed Goetheweg exit. On this page it sits above Dolomites and Rofan, but below Stubai, R\u00e4tikon, and Bernese Oberland.",
+          weather: "High because both the Speckkarspitze summit day and the Goetheweg exit are materially less forgiving in wind, wet rock, or lingering snow. The route note still treats poor conditions as a reason to reject the summit or exit day.",
           navigation: "Moderate because the huts anchor the route clearly, but the traverse and ridge exit still require attention in broken limestone terrain. It is not as straightforward as Dolomites or Rofan, but it is not the most route-finding-heavy line on the page either.",
           bailouts: "Moderate because Bettelwurfh\u00fctte and Pfeish\u00fctte provide strong staging points, but once high on the traverse or Goetheweg there are fewer simple same-day valley exits than on Dolomites or Rofan.",
           booking: "Stable because this page does not carry any reopening or operational caveat for the Karwendel huts. Compared with Dolomites and R\u00e4tikon, there is less booking uncertainty in the route notes."
@@ -262,7 +262,7 @@
           hutAccommodation: buildCostCategory(86, {
             meaning: "Three overnight stays on the 4-day route.",
             breakdown: ["Night 1: Bettelwurfh\u00fctte.", "Night 2: Bettelwurfh\u00fctte again after the summit loop.", "Night 3: Pfeish\u00fctte after the traverse day."],
-            sourceHints: ["Bettelwurfh\u00fctte prices", "Pfeish\u00fctte access page"],
+            sourceHints: ["Bettelwurfh\u00fctte prices", "Pfeish\u00fctte official site"],
             note: "This page keeps the basis on standard adult hut places, not on private rooms."
           }),
           hutWater: buildCostCategory(16, {

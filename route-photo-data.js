@@ -34,13 +34,13 @@ window.extraDayPhotos = {
     { src: commonsFile("Bettelwurfhütte (DSC02422).jpg"), alt: "Bettelwurfhütte from another angle", caption: "Stop: second hut view" }
   ],
   "karwendel-day2": [
-    { src: commonsFile("Großer Bettelwurf Gipfelkreuz (IMG 20170719 150935).jpg"), alt: "Summit cross on Großer Bettelwurf", caption: "Summit: cross and top rocks" },
-    { src: commonsFile("Bettelwurf.jpg"), alt: "Großer Bettelwurf massif", caption: "Trail context: summit massif from the route side" },
-    { src: commonsFile("Bettelwurf NW.JPG"), alt: "Northwest side of the Bettelwurf", caption: "Trail: upper summit-side terrain" },
-    { src: commonsFile("Hundskopf, Fürleg, Bettelwurf and Speckkarspitze.jpg"), alt: "Karwendel ridge terrain around Bettelwurf", caption: "Trail context: ridge terrain around the summit" },
-    { src: commonsFile("Speckkarspitze, Bettelwurf und Hohe Fürleg.jpg"), alt: "Bettelwurf and surrounding ridge line", caption: "Trail: ridge line above Bettelwurfhütte" },
-    { src: commonsFile("Aldrans, Bettelwurf.JPG"), alt: "Bettelwurf seen from farther out", caption: "Trail context: scale of the summit day" },
-    { src: commonsFile("Bettelwurfhütte (DSC02410).jpg"), alt: "Bettelwurfhütte near the summit route", caption: "Stop: hut below the summit day" },
+    { src: commonsFile("Speckkarspitze HQ.jpg"), alt: "Speckkarspitze summit shape", caption: "Trail context: summit shape from the approach side" },
+    { src: commonsFile("Speckkarspitze from IBK.JPG"), alt: "Speckkarspitze seen from Innsbruck side", caption: "Trail context: summit massif from farther out" },
+    { src: commonsFile("Speckkarspitze von SE.jpg"), alt: "Speckkarspitze from the southeast", caption: "Trail: southeast summit-side terrain" },
+    { src: commonsFile("Hundskopf, Fürleg, Bettelwurf and Speckkarspitze.jpg"), alt: "Karwendel ridge terrain around Speckkarspitze", caption: "Trail context: ridge terrain around the summit" },
+    { src: commonsFile("Speckkarspitze, Bettelwurf und Hohe Fürleg.jpg"), alt: "Speckkarspitze and surrounding ridge line", caption: "Trail: ridge line above Bettelwurfhütte" },
+    { src: commonsFile("Speckkarspitze SE.JPG"), alt: "Speckkarspitze southeast face", caption: "Trail: summit-side rocky terrain" },
+    { src: commonsFile("Speckkarspitze west 20160730.jpg"), alt: "Speckkarspitze from the west", caption: "Trail context: western side of the summit day" },
     { src: commonsFile("Bettelwurfhütte (DSC02417).jpg"), alt: "Bettelwurfhütte terrace and terrain", caption: "Stop: second hut-side view" }
   ],
   "karwendel-day3": [

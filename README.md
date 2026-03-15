@@ -137,11 +137,13 @@ npm run capture
 - Day-gallery tiles, nav images, source-card images, and route hero / backdrop assets use managed media from `media/` where available.
 - The lightbox still uses the larger source from `data-fullsrc`.
 - Every route is a 4-day car-free trip from Rotterdam.
+- The intended dry-summer version of each route should avoid requiring a via ferrata set.
 - Every route fact stack includes `Technical range`, `Footwear`, `Gear beyond boots`, and `Current planning note`.
 - Every route fact stack also includes a short `Public transport` outbound summary; the detailed journey wording stays in Day 1 and Day 4.
 - Visible transport summaries on the page should use the `x h journey / y changes` convention rather than raw leg counts.
 - Every route fact stack also includes `Insurance / paperwork`.
 - That fact uses a Dutch-traveler-from-Rotterdam assumption and should say whether any permit, registration, hut-booking step, EHIC assumption, or rescue-insurance caveat applies.
+- Gear notes should explicitly say whether a helmet is not standard, sensible, or required.
 - The old `Endurance load` card was intentionally removed to avoid duplication; the same concept is now represented by the `Fitness requirement` decision column.
 - Every route also includes an `Estimated cost` panel.
 - Cost panels and the top cost summary now show both `1 adult` and `2 adults`.
@@ -157,6 +159,7 @@ npm run capture
   - It was removed because it could create repeated visible photos inside one day gallery.
 - Trip-level videos are longer route videos.
 - Summit clips belong inside the relevant summit day card.
+- The current Karwendel route uses Speckkarspitze from Bettelwurfhütte rather than the older Großer Bettelwurf variant, so the page no longer relies on a via-ferrata-set-dependent Karwendel option.
 - Route maps are indicative route-structure maps, not navigation tracks.
 - Cost estimates are approximate by design:
   - use a budget weekday fare in the recommended hiking months

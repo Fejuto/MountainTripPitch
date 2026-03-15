@@ -2,8 +2,8 @@ import { mkdir } from "node:fs/promises";
 import { expect, test } from "@playwright/test";
 
 const expectedVideoIds = [
-  "DrTc0Tg1i2Y",
-  "PYZFM6Z45J8",
+  "BdSlZdzjEBw",
+  "lBZJpSOXvJ4",
   "ii7MPj66ueI",
   "qHBhRU2RPlY",
   "MhfirzHNVBI",
@@ -144,7 +144,8 @@ test("homepage renders and youtube embeds are http-preview friendly", async ({ p
   await expect(page.locator('#decision-body tr[data-route-id="ratikon"] td[data-decision-metric="fitness"]')).toContainText("5 / 6");
   await expect(page.locator('#decision-body tr[data-route-id="stubai"] td[data-decision-metric="fitness"]')).toContainText("6 / 6");
   await expect(page.locator("#dolomites .facts")).toContainText("6h to 8h journey / 2 changes from Rotterdam");
-  await expect(page.locator("#karwendel .facts")).toContainText("Via ferrata set and helmet required");
+  await expect(page.locator("#karwendel .facts")).toContainText("No via ferrata set or rope on the intended route");
+  await expect(page.locator("#karwendel .facts")).toContainText("Helmet is optional rather than required");
   await expect(page.locator("#bernese .facts")).toContainText("No via ferrata set or rope on the SAC hiking line");
   const sourceCardChecks = await page.locator(".source-list li").evaluateAll((items) =>
     items.map((item) => ({
@@ -328,9 +329,9 @@ test("homepage renders and youtube embeds are http-preview friendly", async ({ p
 
   await mkdir("artifacts", { recursive: true });
   await page.screenshot({ path: "artifacts/homepage-desktop.png", fullPage: true });
-  await page.locator('iframe[data-video-id="DrTc0Tg1i2Y"]').scrollIntoViewIfNeeded();
+  await page.locator('iframe[data-video-id="BdSlZdzjEBw"]').scrollIntoViewIfNeeded();
   await page.waitForTimeout(2500);
-  await page.locator('iframe[data-video-id="DrTc0Tg1i2Y"]').screenshot({ path: "artifacts/first-video.png" });
+  await page.locator('iframe[data-video-id="BdSlZdzjEBw"]').screenshot({ path: "artifacts/first-video.png" });
 });
 
 test("mobile layout renders cleanly", async ({ browser }) => {

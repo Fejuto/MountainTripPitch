@@ -39,6 +39,7 @@
 
 - Every option is a `4-day car-free alpine trip option from Rotterdam`.
 - All options must be reachable within about `12 hours` by public transport on a favorable departure.
+- The intended dry-summer version of each route should avoid requiring a via ferrata set.
 - Sort options by outbound public-transport hops first.
 - If multiple options have the same change count, shorter / cleaner outbound access should come first.
 - Day 1 must include outbound travel information from Rotterdam.
@@ -75,6 +76,11 @@
   - helmet
   - snow / ice or glacier gear
   - rope
+- Be explicit about helmet status:
+  - not necessary / not standard
+  - sensible / recommended
+  - required
+  depending on the route
 - The trip-level `Public transport` summary should stay short:
   - total outbound time from Rotterdam
   - journey / changes
@@ -297,6 +303,8 @@
   - `Rofan`
   - `Rätikon`
   - `Bernese Oberland`
+- The current Karwendel version is the Bettelwurfhütte - Speckkarspitze - Pfeishütte - Goetheweg line.
+  - It replaced the older Großer Bettelwurf variant specifically to remove the via-ferrata-set requirement while keeping the same region and access chain.
 - Keep this principle if routes are added, removed, or updated.
 
 ## When Editing Route Data

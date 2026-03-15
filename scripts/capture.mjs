@@ -112,9 +112,9 @@ try {
   await desktopPage.screenshot({ path: "artifacts/lightbox-gallery.png" });
   await desktopPage.keyboard.press("Escape");
   // Keep this probe aligned with the route order if the first trip's long-form video changes.
-  await desktopPage.locator('iframe[data-video-id="DrTc0Tg1i2Y"]').scrollIntoViewIfNeeded();
+  await desktopPage.locator('iframe[data-video-id="BdSlZdzjEBw"]').scrollIntoViewIfNeeded();
   await desktopPage.waitForTimeout(2500);
-  await desktopPage.locator('iframe[data-video-id="DrTc0Tg1i2Y"]').screenshot({ path: "artifacts/first-video.png" });
+  await desktopPage.locator('iframe[data-video-id="BdSlZdzjEBw"]').screenshot({ path: "artifacts/first-video.png" });
   await desktopPage.close();
 
   const mobileContext = await browser.newContext({
