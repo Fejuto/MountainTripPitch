@@ -139,6 +139,7 @@ npm run capture
 - Every route is a 4-day car-free trip from Rotterdam.
 - Every route fact stack includes `Technical range`, `Footwear`, `Gear beyond boots`, and `Current planning note`.
 - Every route fact stack also includes a short `Public transport` outbound summary; the detailed journey wording stays in Day 1 and Day 4.
+- Visible transport summaries on the page should use the `x h journey / y changes` convention rather than raw leg counts.
 - Every route fact stack also includes `Insurance / paperwork`.
 - That fact uses a Dutch-traveler-from-Rotterdam assumption and should say whether any permit, registration, hut-booking step, EHIC assumption, or rescue-insurance caveat applies.
 - The old `Endurance load` card was intentionally removed to avoid duplication; the same concept is now represented by the `Fitness requirement` decision column.
@@ -146,7 +147,7 @@ npm run capture
 - Cost panels and the top cost summary now show both `1 adult` and `2 adults`.
 - `Hut accommodation` is explicitly the cost of `3 overnight stays`.
 - Day 1 must contain outbound travel information.
-- Day 4 must contain return travel information and explain any hop-count discrepancy.
+- Day 4 must contain return travel information and explain any change-count discrepancy.
 - Day 2 and Day 3 must both stay at or above 3 hours of hiking.
 - Each day currently renders 10 media tiles:
   - 2 in `index.html`

@@ -108,7 +108,7 @@ test("homepage renders and youtube embeds are http-preview friendly", async ({ p
 
   await expect(page.locator("#totals-body tr").nth(2).locator("td")).toHaveText([
     "Dolomites",
-    "2",
+    "6h to 8h journey / 2 changes",
     "12h 25m",
     "31.5 km",
     "1660 m",
@@ -143,7 +143,7 @@ test("homepage renders and youtube embeds are http-preview friendly", async ({ p
   await expect(page.locator('#decision-body tr[data-route-id="bernese"] td[data-decision-metric="fitness"]')).toContainText("5 / 6");
   await expect(page.locator('#decision-body tr[data-route-id="ratikon"] td[data-decision-metric="fitness"]')).toContainText("5 / 6");
   await expect(page.locator('#decision-body tr[data-route-id="stubai"] td[data-decision-metric="fitness"]')).toContainText("6 / 6");
-  await expect(page.locator("#dolomites .facts")).toContainText("Roughly 6 to 8 hours from Rotterdam, 3 legs / 2 changes outbound");
+  await expect(page.locator("#dolomites .facts")).toContainText("6h to 8h journey / 2 changes from Rotterdam");
   await expect(page.locator("#karwendel .facts")).toContainText("Via ferrata set and helmet required");
   await expect(page.locator("#bernese .facts")).toContainText("No via ferrata set or rope on the SAC hiking line");
   const sourceCardChecks = await page.locator(".source-list li").evaluateAll((items) =>

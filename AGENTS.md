@@ -40,13 +40,13 @@
 - Every option is a `4-day car-free alpine trip option from Rotterdam`.
 - All options must be reachable within about `12 hours` by public transport on a favorable departure.
 - Sort options by outbound public-transport hops first.
-- If multiple options have the same hop count, shorter / cleaner outbound access should come first.
+- If multiple options have the same change count, shorter / cleaner outbound access should come first.
 - Day 1 must include outbound travel information from Rotterdam.
 - Day 4 must include return travel information to Rotterdam.
 - Travel notes should include:
   - total time
   - method
-  - hop count
+  - change count
   - concrete board / exit / short-walk language when that can be verified
 - If the return has more or fewer hops than the arrival, explain why in the Day 4 travel note.
 - Day 2 and Day 3 must each be at least `3 hours` of hiking.
@@ -77,7 +77,7 @@
   - rope
 - The trip-level `Public transport` summary should stay short:
   - total outbound time from Rotterdam
-  - outbound legs / changes
+  - journey / changes
 - Keep the detailed step-by-step public-transport wording in Day 1 and Day 4.
 - The `Insurance / paperwork` fact should:
   - say whether any route permit or mandatory trail registration was found
