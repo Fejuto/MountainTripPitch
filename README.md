@@ -1,3 +1,6 @@
+# IMPORTANT
+This repo is entirely vibe coded. Just a throwaway experiment to see the current state of LLM tooling.
+
 # README
 
 ## Requirements
