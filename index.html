@@ -561,29 +561,6 @@
       display: grid;
       gap: 26px;
     }
-    .trip::before {
-      content: attr(data-route-kicker);
-      position: absolute;
-      top: 88px;
-      left: 26px;
-      z-index: 2;
-      display: inline-flex;
-      align-items: center;
-      width: fit-content;
-      min-height: 34px;
-      padding: 6px 14px;
-      border-radius: 999px;
-      border: 1px solid color-mix(in srgb, var(--trip-accent, #17222c) 22%, rgba(23, 34, 44, 0.08));
-      background: color-mix(in srgb, var(--trip-accent, #17222c) 14%, rgba(255, 251, 244, 0.92));
-      box-shadow: 0 10px 22px rgba(17, 30, 39, 0.06);
-      color: color-mix(in srgb, var(--trip-accent, #17222c) 82%, #17222c);
-      font-size: 11px;
-      font-weight: 800;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      opacity: 0.92;
-      pointer-events: none;
-    }
     .trip::after {
       content: "";
       display: block;
@@ -1872,7 +1849,7 @@
     </section>
 
     <section class="block route-section" id="karwendel" style="--section-accent: var(--kar-accent);">
-      <article class="trip" style="--trip-accent: var(--kar-accent);" data-route-kicker="Outbound: 3 legs / 2 changes">
+      <article class="trip" style="--trip-accent: var(--kar-accent);">
         <div class="trip-head">
           <div class="trip-copy">
             <h2>Karwendel</h2>
@@ -2024,7 +2001,7 @@
     </section>
 
     <section class="block route-section" id="stubai" style="--section-accent: var(--stu-accent);">
-      <article class="trip" style="--trip-accent: var(--stu-accent);" data-route-kicker="Outbound: 3 legs / 2 changes">
+      <article class="trip" style="--trip-accent: var(--stu-accent);">
         <div class="trip-head">
           <div class="trip-copy">
             <h2>Stubai</h2>
@@ -2176,7 +2153,7 @@
     </section>
 
     <section class="block route-section" id="dolomites" style="--section-accent: var(--dol-accent);">
-      <article class="trip" style="--trip-accent: var(--dol-accent);" data-route-kicker="Outbound: 3 legs / 2 changes">
+      <article class="trip" style="--trip-accent: var(--dol-accent);">
         <div class="trip-head">
           <div class="trip-copy">
             <h2>Dolomites</h2>
@@ -2331,7 +2308,7 @@
     </section>
 
     <section class="block route-section" id="bernese" style="--section-accent: var(--ber-accent);">
-      <article class="trip" style="--trip-accent: var(--ber-accent);" data-route-kicker="Outbound: 6 legs / 5 changes">
+      <article class="trip" style="--trip-accent: var(--ber-accent);">
         <div class="trip-head">
           <div class="trip-copy">
             <h2>Bernese Oberland</h2>
@@ -2485,7 +2462,7 @@
     </section>
 
     <section class="block route-section" id="rofan" style="--section-accent: var(--rof-accent);">
-      <article class="trip" style="--trip-accent: var(--rof-accent);" data-route-kicker="Outbound: 4 legs / 3 changes">
+      <article class="trip" style="--trip-accent: var(--rof-accent);">
         <div class="trip-head">
           <div class="trip-copy">
             <h2>Rofan</h2>
@@ -2637,7 +2614,7 @@
     </section>
 
     <section class="block route-section" id="ratikon" style="--section-accent: var(--rat-accent);">
-      <article class="trip" style="--trip-accent: var(--rat-accent);" data-route-kicker="Outbound: 4 legs / 3 changes">
+      <article class="trip" style="--trip-accent: var(--rat-accent);">
         <div class="trip-head">
           <div class="trip-copy">
             <h2>R&auml;tikon</h2>

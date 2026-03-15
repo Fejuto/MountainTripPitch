@@ -177,7 +177,6 @@
 - Route transitions should be obvious.
   - Each route section now owns its own accent wash and separation band, and that color treatment should move with the section while scrolling.
   - A non-scrolling full-screen backdrop also fades to the active route hero image behind the route cards.
-  - Each route also starts with a small outbound-access kicker pill above the hero so the next section reads as a new route immediately.
   - Keep the section-local treatment and the fixed backdrop aligned; do not let one contradict the other visually.
 - The map must never overlap above the sticky nav or the lightbox.
 - The image lightbox must always appear above the maps.

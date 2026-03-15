@@ -129,7 +129,6 @@ npm run capture
   - a route-specific section wash that scrolls with each route
   - a fixed full-screen route backdrop that fades to the currently active route hero image
   - stronger separation bands and spacing between route sections
-  - a small outbound-access kicker above each route hero so section starts are easy to spot
 - The outer-most section wrappers are intentionally transparent now.
   - The design should read as text and inner panels placed on the backdrop, not as one large card nested around smaller cards.
 - Each route header now uses one runtime-built full-bleed hero image.

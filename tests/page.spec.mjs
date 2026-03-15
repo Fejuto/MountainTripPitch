@@ -48,7 +48,6 @@ test("homepage renders and youtube embeds are http-preview friendly", async ({ p
   await expect(page.locator("figure.media")).toHaveCount(240);
   await expect(page.locator(".day-media")).toHaveCount(24);
   await expect(page.locator(".trip-hero")).toHaveCount(6);
-  await expect(page.locator('.trip[data-route-kicker]')).toHaveCount(6);
   await expect(page.locator('.fact small').filter({ hasText: "Gear beyond boots" })).toHaveCount(6);
   await expect(page.locator('.fact small').filter({ hasText: "Public transport" })).toHaveCount(6);
   await expect(page.locator('.fact small').filter({ hasText: "Insurance / paperwork" })).toHaveCount(6);
